@@ -1,4 +1,4 @@
-package stack;
+package Stack;
 
 /**
  * 42. 接雨水

@@ -1,4 +1,4 @@
-package stack;
+package Stack;
 
 import org.junit.Test;
 import util.BinaryTree;

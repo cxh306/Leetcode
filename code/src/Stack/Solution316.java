@@ -1,4 +1,4 @@
-package stack;
+package Stack;
 
 public class Solution316 {
     public String removeDuplicateLetters(String s) {
