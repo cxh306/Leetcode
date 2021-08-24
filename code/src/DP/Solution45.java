@@ -1,8 +1,5 @@
 package DP;
 
-import java.util.Arrays;
-import java.util.PriorityQueue;
-
 public class Solution45 {
     public int jump(int[] nums) {
         int len=nums.length;
