@@ -1,7 +1,5 @@
 package binary_search;
 
-import org.junit.Test;
-
 import java.util.Arrays;
 
 public class Solution209 {
