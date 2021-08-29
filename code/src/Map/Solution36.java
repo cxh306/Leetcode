@@ -1,4 +1,4 @@
-package HashTable;
+package Map;
 
 public class Solution36 {
     public boolean isValidSudoku(char[][] board) {

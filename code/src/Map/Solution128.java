@@ -1,6 +1,4 @@
-package HashTable;
-
-import org.junit.Test;
+package Map;
 
 import java.util.*;
 
