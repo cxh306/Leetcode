@@ -26,7 +26,7 @@ public class Solution17_12 {
 
     @Test
     public void test(){
-        BinaryTree binaryTree = new BinaryTree(new Integer[]{4, 2, 5, 1, 3, null, 6, 0});
-        convertBiNode(binaryTree.getRoot());
+        TreeNode binaryTree = new BinaryTree().createTree(new Integer[]{4, 2, 5, 1, 3, null, 6, 0});
+        convertBiNode(binaryTree);
     }
 }

@@ -30,8 +30,8 @@ public class Solution114 {
 
     @Test
     public void test(){
-        BinaryTree binaryTree = new BinaryTree(new Integer[]{1, 2, 5, 3, 4, null, 6});
+        TreeNode binaryTree = new BinaryTree().createTree(new Integer[]{1, 2, 5, 3, 4, null, 6});
 
-        flatten(binaryTree.getRoot());
+        flatten(binaryTree);
     }
 }
