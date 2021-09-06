@@ -4,10 +4,9 @@ import java.util.LinkedList;
 
 public class BinaryTree{
     public TreeNode root;
-    public BinaryTree(Integer[] node){
+    public TreeNode createTree(Integer[] node){
         if(node.length==0){
-            root=null;
-            return;
+            return null;
         }
         root=new TreeNode(node[0]);
         LinkedList<TreeNode> l = new LinkedList<>();
@@ -31,9 +30,6 @@ public class BinaryTree{
             }
             l.removeLast();
         }
-    }
-
-    public TreeNode getRoot() {
         return root;
     }
 }
