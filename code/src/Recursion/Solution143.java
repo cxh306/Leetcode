@@ -2,7 +2,6 @@ package Recursion;
 
 import org.junit.Test;
 import util.ListNode;
-import util.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +34,5 @@ public class Solution143 {
 
     @Test
     public void test(){
-        ListNode linkedList = new linkedlist().createLinkedList(new int[]{1, 2, 3, 4});
-        reorderList(linkedList);
     }
 }

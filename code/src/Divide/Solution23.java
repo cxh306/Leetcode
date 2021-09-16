@@ -1,8 +1,7 @@
-package divide;
+package Divide;
 
 import org.junit.Test;
 import util.ListNode;
-import util.ListNodeFactory;
 
 import java.util.*;
 

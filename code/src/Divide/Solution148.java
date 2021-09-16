@@ -1,4 +1,4 @@
-package divide;
+package Divide;
 
 import util.ListNode;
 
