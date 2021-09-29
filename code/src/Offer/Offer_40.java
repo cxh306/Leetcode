@@ -18,7 +18,7 @@ public class Offer_40 {
             return new int[0];
         }
         int[] st=new int[10001];
-        for (var num:arr) {
+        for (int num:arr) {
             st[num]++;
         }
         int i=0;
@@ -43,7 +43,7 @@ public class Offer_40 {
         }
         TreeMap<Integer,Integer> tm = new TreeMap<>();
         int cnt=0;
-        for(var num:arr){
+        for(int num:arr){
             if(cnt<k){
                 tm.put(num,tm.getOrDefault(num,0)+1);
                 cnt++;
@@ -64,7 +64,7 @@ public class Offer_40 {
         Set<Integer> integerSet = tm.keySet();
         int[] ans = new int[k];
         int i=0;
-        for(var key:integerSet){
+        for(int key:integerSet){
             int n = tm.get(key);
             while(n-->0){
                 ans[i++]=key;
@@ -83,7 +83,7 @@ public class Offer_40 {
             return new int[0];
         }
         PriorityQueue<Integer> p = new PriorityQueue<>((v1,v2)->v2-v1);
-        for(var num:arr){
+        for(int num:arr){
             if(p.size()<k){
                 p.add(num);
             }else{
@@ -95,7 +95,7 @@ public class Offer_40 {
         }
         int[] ans = new int[p.size()];
         int i=0;
-        for (var num:p){
+        for (int num:p){
             ans[i++]=num;
         }
         return ans;
